@@ -1,0 +1,28 @@
+$comment-background: rgba(136, 250, 178, 0.5);
+$quote-background: rgba(0, 0, 0, 0.03);
+$quote-border: 3px solid rgba(136, 250, 178, 0.5);
+
+.container {
+  padding: 20px 20px 0px 20px;
+  position: relative;
+}
+
+.editor {
+
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  cursor: text;
+  font-size: 16px;
+  margin-top: 10px;
+
+  comment {
+    background-color: $comment-background;
+  }
+
+  blockquote {
+    background-color: $quote-background;
+    border-left: $quote-border;
+    padding: 10px;
+  }
+}

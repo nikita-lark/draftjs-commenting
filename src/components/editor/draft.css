@@ -1,0 +1,6 @@
+/* overriding Draft.js css */
+.public-DraftStyleDefault-pre {
+    background-color: rgba(0, 0, 0, 0.05);
+    font-family: 'Inconsolata', 'Menlo', 'Consolas', monospace;
+    padding: 20px;
+}
